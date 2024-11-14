@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-52-app",
-    "slug": "expo-52-app",
+    "slug": "test",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +37,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2cb541dd-bcf2-41c8-84ea-7f217489c7e9"
+      }
+    },
+    "owner": "sanjaydevtech"
   }
 }
