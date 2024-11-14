@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 9.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
+    },
+    "production-apk": {
+      "android": {
+        "image": "latest",
+        "buildType": "apk"
+      },
+      "ios": {
+        "image": "latest"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
